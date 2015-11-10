@@ -12,8 +12,10 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("hello world");
             //test!!!
+            Enumerable.Range(1, 199).ToList()
+                .ForEach(x => Console.WriteLine("{0}", x));
 
-
+            Console.ReadKey();
 
         }
     }

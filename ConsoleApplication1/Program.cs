@@ -13,9 +13,8 @@ namespace ConsoleApplication1
             Console.WriteLine("hello world");
 
 
-            
+
 
         }
-        static void Test() { }
     }
 }
